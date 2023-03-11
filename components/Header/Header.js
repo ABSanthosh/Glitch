@@ -46,13 +46,13 @@ function Header() {
           <li className="HeaderWrapper__MenuList--item">
             <Link href="/#tracks">Tracks</Link>
           </li>
-          {/* <li className="HeaderWrapper__MenuList--item">
+          <li className="HeaderWrapper__MenuList--item">
             <Link href="/#sponsors">Sponsors</Link>
-          </li> */}
-          {/* <li className="HeaderWrapper__MenuList--item">
-            <Link href="/#prizes">Prizes</Link>
           </li>
           <li className="HeaderWrapper__MenuList--item">
+            <Link href="/#prizes">Prizes</Link>
+          </li>
+          {/* <li className="HeaderWrapper__MenuList--item">
             <Link href="/#events">Events</Link>
           </li>
           <li className="HeaderWrapper__MenuList--item">

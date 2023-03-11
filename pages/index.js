@@ -252,7 +252,7 @@ export default function Home() {
                   </div>
               </div>
           </section>
-          <section className="HomeContainer__horizontalScroller">
+          <section className="HomeContainer__horizontalScroller" id="prizes">
               <span>
                   Great Prizes - Great Prizes - Great Prizes - Great Prizes -
                   Great Prizes - Great Prizes - Great Prizes - Great Prizes -
@@ -314,6 +314,7 @@ export default function Home() {
               style={{
                   marginTop: "5rem",
               }}
+              id="sponsors"
           >
               <div className="HomeContainer__DevfolioSponsor--title">
                   <h2>Sponsors</h2>
@@ -358,16 +359,14 @@ export default function Home() {
               >
                   <img src="/Images/Sponsors/Filecoin.png" alt="" />
               </Link>
-                <Link
-
-                    href="https://www.wolfram.com/language/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    className="HomeContainer__DevfolioSponsor--logo"
-                >
-                    <img src="/Images/Sponsors/Wolfram.png" alt="" />
-                </Link>
-
+              <Link
+                  href="https://www.wolfram.com/language/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className="HomeContainer__DevfolioSponsor--logo"
+              >
+                  <img src="/Images/Sponsors/Wolfram.png" alt="" />
+              </Link>
           </section>
 
           <section className="HomeContainer__FAQ" id="faq">
